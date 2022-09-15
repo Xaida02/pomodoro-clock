@@ -1,0 +1,79 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: rgb(17, 121, 121);
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#break-label, #session-label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    padding: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 20px;
+    margin-top: 5px;
+    width: 20%;
+    user-select: none;
+}
+
+.arrow {
+    border: 2px solid rgba(122, 20, 18, 0.497);
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+/* h1 {
+    font-size: 65 px;
+} */
+
+.display {
+    text-align: center;
+    user-select: none;
+    margin: 30px;
+}
+
+#time-left {
+    font-size: 65px;
+    color: rgb(238, 238, 96);
+}
+
+#time-left:hover {
+    color: rgb(245, 191, 92);
+}
+
+#session-length, #break-length {
+    color: rgb(238, 238, 96);
+    font-family: impact;
+}
+
+#session-length:hover, #break-length:hover {
+    color: rgb(245, 191, 92);
+}
+
+h2 {
+    margin-top: 5px;
+}
+
+.clock-btns {
+    display: flex;
+    justify-content: center;
+}
+
+.clock-btn {
+    cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 5px;
+    font-size: 20px;
+}
