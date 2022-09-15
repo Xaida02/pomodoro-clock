@@ -19,7 +19,7 @@ const App = () => {
     const [start, setStart] = useState(false);
     const audio = document.getElementById("beep");
 
-    window.onload(alert("Toggle some button before running the tests. Otherwise the tests may not work."))
+
     
 
     const timeOut = setTimeout(() => {
